@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export WHITE=0xffffffff
+export BLACK=0xff000000
+
+export BAR_COLOR=0xBF181825
+export BAR_BORDER_COLOR=0xBFCBA6F7
+export ITEM_BG_COLOR=0x80CBA6F7
+export ACCENT_COLOR=0xBFCBA6F7

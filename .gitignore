@@ -1,0 +1,6 @@
+raycast/
+qBittorrent/
+*.DS_Store
+*.log
+/qBittorrent
+neofetch/

@@ -118,7 +118,7 @@ function icon_map() {
   "LibreWolf")
     icon_result=":libre_wolf:"
     ;;
-  "Notes" | "备忘录")
+  "Notes" | "备忘录" | "Notas")
     icon_result=":notes:"
     ;;
   "Notion")
@@ -415,7 +415,7 @@ function icon_map() {
   "Bear")
     icon_result=":bear:"
     ;;
-  "System Preferences" | "System Settings" | "系统设置")
+  "System Preferences" | "System Settings" | "系统设置" | "Ajustes de Sistema")
     icon_result=":gear:"
     ;;
   "Nova")

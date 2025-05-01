@@ -25,8 +25,8 @@ exec-on-workspace-change = ['/bin/bash', '-c',
 ]
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
-enable-normalization-flatten-containers = true
-enable-normalization-opposite-orientation-for-nested-containers = true
+enable-normalization-flatten-containers = false
+enable-normalization-opposite-orientation-for-nested-containers = true 
 
 # See: https://nikitabobko.github.io/AeroSpace/guide#layouts
 # The 'accordion-padding' specifies the size of accordion padding
@@ -175,3 +175,31 @@ alt-shift-h = ['join-with left', 'mode main']
 alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'              
+run = ['move-node-to-workspace T']
+
+[[on-window-detected]]
+if.app-id = 'app.zen-browser.zen'             
+run = ['move-node-to-workspace B']
+
+[[on-window-detected]]
+if.app-id = 'ru.keepcoder.Telegram'             
+run = ['move-node-to-workspace C']
+
+[[on-window-detected]]
+if.app-id = 'net.whatsapp.WhatsApp'             
+run = ['move-node-to-workspace C']
+
+[[on-window-detected]]
+if.app-id = 'com.hnc.Discord'             
+run = ['move-node-to-workspace D']
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome'
+run = ['move-node-to-workspace B']
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Safari'
+run = ['move-node-to-workspace B']

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sketchybar --add event aerospace_workspace_change
+sketchybar --add event aerospace_mode_change
+
 sketchybar --add item aerospace_mode left \
   --subscribe aerospace_mode aerospace_mode_change \
   --set aerospace_mode icon="" \
@@ -27,8 +30,8 @@ for sid in $(aerospace list-workspaces --all); do
     background.drawing=on \
     label.font="sketchybar-app-font:Regular:16.0" \
     background.color="$ACCENT_COLOR" \
-    icon.color="$BACKGROUND" \
-    label.color="$BACKGROUND" \
+    icon.color="$WHITE" \
+    label.color="$WHITE" \
     background.corner_radius=5 \
     background.height=25 \
     label.drawing=on \

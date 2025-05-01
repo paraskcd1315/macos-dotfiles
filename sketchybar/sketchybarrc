@@ -11,7 +11,7 @@ bar=(
   blur_radius=30 
   color=$BAR_COLOR
   margin=12
-  y_offset=8
+  y_offset=4
   corner_radius=8
   border_color=$BAR_BORDER_COLOR
   border_width=1
@@ -34,10 +34,6 @@ default=(
   background.height=24
 )
 sketchybar --default "${default[@]}"
-
-sketchybar --add event aerospace_workspace_change
-sketchybar --add event aerospace_mode_change
-sketchybar --add event display_volume_change
 
 # -- Left Side Items --
 source $ITEM_DIR/apple.sh

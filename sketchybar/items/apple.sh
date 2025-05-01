@@ -5,6 +5,7 @@ source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 sketchybar --add item apple.logo left                                                         \
               --set apple.logo icon=􀣺                                                         \
                                icon.font="SF Pro:Black:16.0"                                  \
+                               padding_right=16                                                \
                                label.drawing=off                                              \
                                background.drawing=off                                         \
                                icon.color=$ACCENT_COLOR                                       \

@@ -4,3 +4,5 @@ qBittorrent/
 *.log
 /qBittorrent
 neofetch/
+sketchybar/keys.sh
+htop/
